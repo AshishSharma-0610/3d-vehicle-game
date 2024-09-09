@@ -4,7 +4,7 @@ import { RigidBody } from '@react-three/rapier'
 import * as THREE from 'three'
 
 const shapeTypes = ['box', 'sphere', 'pyramid'] as const
-const colors = ['red', 'green', 'blue', 'yellow'] as const
+const colors = ['red', 'pink', 'silver', 'yellow'] as const
 
 interface FallingShapeProps {
     position: [number, number, number];
